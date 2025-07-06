@@ -1,3 +1,3 @@
-const USERAPI = "https://api.hgbrasil.com/weather";
+const USERAPI = "/weather";
 
 export {USERAPI}

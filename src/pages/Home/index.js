@@ -1,6 +1,6 @@
 import { Component } from "react";
 import { USERAPI } from '../../api';
-import './styles.css';
+import './style.css';
 
 export default class Home extends Component {
   constructor(props) {
@@ -45,7 +45,7 @@ export default class Home extends Component {
         <p> Carregando... </p>
         : 
         this.state.error ?
-        <p> Erro: {this.state.error.message} </p>
+        <p> ERROR: {this.state.error.message} </p>
         :
         <p> DADOS: {this.state.weather.temp}</p>
   }
